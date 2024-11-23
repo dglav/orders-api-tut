@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/dreamsofcode-io/orders-api/application"
+	"github.com/dglav/orders-api/application"
 )
 
 func main() {

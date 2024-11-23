@@ -3,7 +3,7 @@ package application
 import (
 	"net/http"
 
-	"github.com/dreamsofcode-io/orders-api/handler"
+	"github.com/dglav/orders-api/handler"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 )
