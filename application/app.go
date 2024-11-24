@@ -43,7 +43,8 @@ func (a *App) Start(ctx context.Context) error {
 
 	fmt.Println("Starting server")
 
-	// TODO: Learn what is going on in this line
+	// error 	= The type of what will be received from the channel
+	// 1 		 	= The number of items that can be stored in the buffer before it blocks.
 	ch := make(chan error, 1)
 
 	go func() {
